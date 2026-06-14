@@ -1,0 +1,27 @@
+/* # = id
+. = class */
+*{
+    background-color: skyblue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hello {
+    color: blue;
+    background-color: yellow;
+    margin: 20px;
+    padding: 29px 10px;
+    border: 4px solid rgb(168, 140, 140);
+    border-radius: 100px;
+}
+
+.world{
+    color: red;
+    background-color: aqua;
+    border: 5px solid rgb(168, 140, 140);
+    border-radius: 100px;
+}

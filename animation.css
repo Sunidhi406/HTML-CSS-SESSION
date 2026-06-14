@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@keyframes myAnimation {
+    from {
+        background-color: blue;
+        font-size: 10px;
+        border-radius: 0;
+    }
+
+    50% {
+        background-color: green;
+        font-size: 50px;
+        border-radius: 20px;
+    }
+
+    to {
+        background-color: red;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    animation: myAnimation 3s linear 0.5s infinite alternate;
+    /* animation-name, animation duration, speed, delay, no of iterations */
+}

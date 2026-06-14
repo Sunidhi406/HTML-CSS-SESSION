@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.Heading {
+    font-size: 60px;
+    background-color: skyblue;
+    padding: 0px 156px;
+}
+
+
+.break {
+  flex-basis: 100%; 
+  height: 0;
+}
+
+#name{
+    font-size: 45px;
+    background-color: skyblue;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#submit {
+    padding: 13px;
+    background-color: green;
+    margin: 20px;
+    border-radius: 35px;
+    font-size: 39px;
+    margin-left: 223px;
+}
+
+form{
+    background-color: skyblue;
+    border-radius: 20px;
+    border: 5px black solid;
+}
+
+#label1{
+    font-size: 28px;
+    margin-left: 99px;
+}
+
+#label2{
+    font-size: 28px;
+}
