@@ -1,0 +1,19 @@
+/* section p{
+    color: red;
+} */
+
+/* section > p{
+    color: red;
+} */
+
+/* section p:first-child{
+    color: red;
+} */
+
+/* section p:last-child{
+    color: red;
+} */
+
+section p:nth-child(odd){
+    color: red;
+}

@@ -1,0 +1,41 @@
+/* Mobile-First Design */
+
+:root{
+    --bg-aqua: aqua;
+    --bg-green: green;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.card{
+    background-color: var(--bg-aqua);
+    padding: 15px;
+}
+
+@media screen and (min-width: 768px){
+    .card-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        background-color: var(--bg-green);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .card-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card{
+        background-color: var(--bg-aqua);
+    }
+}

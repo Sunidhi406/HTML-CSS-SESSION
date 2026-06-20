@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes myAnimation {
+    0%{
+        background-color: aqua;
+    }
+
+    50%{
+        background-color: green;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    height: 500px;
+    width: 500px;
+    animation: myAnimation 3s ease-out 0.5s infinite;
+}
+
+th,td {
+    border: black 2px solid;
+    text-align: center;
+    font-size: 2rem;
+}
